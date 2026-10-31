@@ -1,0 +1,7 @@
+{
+  "name": "lab6-automation",
+  "private": true,
+  "devDependencies": {
+    "allure": "3.22.1"
+  }
+}
