@@ -20,12 +20,6 @@ npm install
 .\.venv\Scripts\python.exe -m pytest -n 2 -v -k "suggest or clear" --alluredir=results-new/form
 ```
 
-Драйвер загружается автоматически. Для параллельного запуска можно заранее задать путь к совместимому ChromeDriver:
-
-```powershell
-$env:CHROMEDRIVER = 'C:\путь\к\chromedriver.exe'
-```
-
 Флаг `--headed` показывает окно браузера. Переменная `CHROME_BINARY` задает путь к Chrome, если он установлен нестандартно.
 
 ## Allure
