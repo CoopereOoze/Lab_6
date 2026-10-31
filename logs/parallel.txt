@@ -1,0 +1,19 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.14, pytest-9.2.0, pluggy-1.7.0 -- C:\Users\Andrew\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Andrew\Documents\Codex\2026-10-30\1-6-1-3-1-3\work\lab6
+configfile: pytest.ini
+testpaths: tests
+plugins: allure-pytest-2.16.2, xdist-3.8.0
+created: 2/2 workers
+2 workers [2 items]
+
+scheduling tests via LoadScheduling
+
+tests/test_yandex_form.py::TestYandexSearch::test_clear 
+tests/test_yandex_form.py::TestYandexSearch::test_suggest 
+[gw0] [ 50%] PASSED tests/test_yandex_form.py::TestYandexSearch::test_suggest 
+[gw1] [100%] PASSED tests/test_yandex_form.py::TestYandexSearch::test_clear 
+
+- generated xml file: C:\Users\Andrew\Documents\2026-10-30\1-6-1-3-1-3\work\lab6\parallel-final.xml -
+======================== 2 passed in 199.07s (0:03:19) ========================
